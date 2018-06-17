@@ -2,8 +2,10 @@
 body {
     margin: 0;
     line-height: 1.5em;
-    color: #333333;
+    color: #000;
     font-family: helvetica, arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -34,9 +36,10 @@ nav section, header section, main, footer section {
 
 /* Navigation panel */
 nav {
-    background: #333333;
+    background: #515151;
     border-bottom: thin solid #111111;
     line-height: 3em;
+    font-family: 'Pontano Sans', sans-serif;
 }
 
 nav a {
@@ -44,11 +47,11 @@ nav a {
 }
 
 nav a:link, nav a:visited {
-    color: #cccccc;
+    color: #fff;
 }
 
 nav a:hover, nav a:active {
-    color: #ffffff;
+    color: #00b4FF;
     text-decoration: none;
 }
 
@@ -61,7 +64,7 @@ nav a:hover, nav a:active {
 
 /* Footer */
 footer {
-    background: #f0f0f0;
+    background: #EEEEEE;
     border-top: thin solid #e0e0e0;
     margin-top: 2em;
     padding: 1em 0;
